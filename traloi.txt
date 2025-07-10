@@ -1,0 +1,559 @@
+1. Trong máy tính CPU là viết tắt của cụm từ nào sau đây
+Central Processing Unit  
+2. Các thành phần chức năng cơ bản của máy tính số là
+CPU,thiết bị giao diện, thiết bị nhập/xuất, bộ nhớ
+3. Các thông tin về cấu hình hệ thống máy tính chứa trong
+RAM-CMOS
+4. Chương trình xác lập cấu hình hệ thống máy tính chứa trong
+ROM
+5. Trong hệ thống máy tính, KC8042 (keyboard controller) là
+thiết bị giao diện
+6. CPU 80286 được cấu thành từ
+4 đơn vị chính EU, IU, AU,BU
+7. Chức năng của khối EU trong kiến trúc CPU Intel 80286 là
+thực hiện các lệnh đã được giải mã
+8. Chức năng của khối IU trong kiến trúc CPU intel 80286 là
+giải mã các lệnh đã đọc vào từ bộ nhớ
+9. Trong kiến trúc CPU intel 80286 chức năng tạo địa chỉ vật lý từ địa chỉ logic được thực hiện tại
+đơn vị AU
+10. Trong chế độ thực cặp địa chỉ segment :offset của một ô nhớ được quan niệm là
+địa chỉ logic của ô nhớ
+11. Địa chỉ segment  của một ô nhớ được quan niệm là
+địa chỉ đoạn của đoạn nhớ chứa ô nhớ
+12. Địa chỉ offset  của một ô nhớ được quan niệm là
+mang thông tin về  độ lệch của địa chỉ  ô nhớ so với địa chỉ nền đoạn nhớ
+13. Địa chỉ offset nền của ô nhớ trong đoạn nhớ dữ liệu thường được xác định  trong thanh ghi
+BX
+14. Các thanh ghi SS,CS,DS,ES
+chứa địa chỉ đoạn của các đoạn nhớ tương ứng của Chương trình đang thực hiện trong chế độ thực
+15. Các thanh ghi trong CPU16 bit có thể truy nhập như là các thanh ghi 16 bit hoặc 8 bit là
+các thanh ghi đa năng
+16. Trong thanh ghi cờ của CPU, khi bit cờ DF=1 thì
+DI giảm khi thực hiện các lệnh thao tác xâu ký tự
+17. Trong thanh ghi cờ của CPU, khi bit cờ hướng DF=0 thì
+DI tăng khi thực hiện các lệnh thao tác xâu ký tự
+18. Trong chế độ bảo vệ với cơ chế quản lý bộ nhớ theo phân đoạn thì thanh ghi đoạn
+dùng để xác định thông tin về bộ mô tả đoạn nhớ trong bảng bộ mô tả
+19. Bảng bộ mô tả  GDT bao gồm
+các bộ mô tả đoạn nhớ trong không gian nhớ toàn cục
+20. Trong chế độ bảo vệ theo cơ chế phân đoạn, bộ chọn đoạn
+chứa 3 thông tin về bộ mô tả đoạn
+21. Trong chế độ bảo vệ theo cơ chế phân đoạn, một bộ mô tả đoạn nhớ
+có chứa thông tin về quyền truy nhập đoạn nhớ
+22. Đối với người sử dụng, chức năng cơ bản của máy tính số là:
+Thực hiện chương trình
+23. Trong chế độ thực các thanh ghi đoạn dùng để:
+Chứa địa chỉ đoạn
+24. Cụm từ CPU là viết tắt của :
+Central Processing Unit
+25. Bus dữ liệu trong PC dùng để
+Là đường truyền dữ liệu chung của các bộ phận trong máy tính
+26. Loại bus sử dụng trong kiến trúc vào/ra của máy tính số là
+Cả bus dữ liệu, bus điều khiển và bus địa chỉ
+27. Loại Bus nào truyền tín hiệu dữ liệu giữa CPU và bộ nhớ
+Bus dữ liệu
+28. Thông tin về cấu hình hệ thống và thời gian thực được lưu trong
+CMOS
+29. Khi nguồn nuôi bị ngắt thì:
+Dữ liệu lưu trữ trong ROM không bị mất
+30. Trong CPU Intel 80x86 AX là
+Thanh ghi tích luỹ
+31. Thanh ghi 16 bits là
+Thanh ghi có thể chứa được dữ liệu 16 bits
+32. Trong chế độ định vị bộ nhớ kiểu định vị thanh ghi, thanh ghi dùng để
+chứa địa chỉ toán hạng của lệnh
+33. Trong cơ chế quản lý bộ nhớ trong chế độ thực cặp CS:IP chứa 
+địa chỉ logic của ô nhớ trong đoạn mã lệnh trong đó CS chứa địa chỉ đoạn, IP chứa địa chỉ offset
+34. Trong cơ chế quản lý bộ nhớ trong chế độ thực cặp SS:SP chứa
+địa chỉ logic của ô nhớ đỉnh ngăn xếp trong đó SS chứa địa chỉ đoạn, SP chứa địa chỉ offset và luôn trỏ tới đỉnh ngăn xếp
+35. Trong cơ chế quản lý bộ nhớ trong  chế độ thực DS:OFFSET trỏ tới
+ô nhớ trong đoạn dữ liệu
+36. Khẳng định nào sau đây là KHÔNG đúng
+Có thể sử dụng từng nửa của các thanh ghi đoạn như một thanh ghi
+37. Khẳng định nào sau đây là SAI
+Toán hạng của lệnh có thể nằm ở bộ nhớ ngoài
+38. 80286 là 
+Vi xử lý trung tâm 16 bits
+39. Trong chế độ bảo vệ
+Các đoạn nhớ được bảo vệ dựa trên mức đặc quyền và luật về quyền truy nhập
+40. Trong chế độ bảo vệ bộ mô tả đoạn
+Chứa các thông tin về vị trí đoạn nhớ, quyền truy nhập và giới hạn đoạn
+41. Bảng các bộ mô tả 
+Nằm trong bộ nhớ chính
+42. Trong chế độ bảo vệ các thanh ghi đoạn đóng vai trò
+Bộ chọn đoạn 16 bits
+43. Một lệnh thường được thực hiện  qua 5 giai đoạn
+Nạp lệnh, giải mã lệnh, tạo địa chỉ toán hạng, nạp toán hạng, thực hiện lệnh
+44. Mã bù 2 của 1 số nhị phân được tạo ra bằng cách:
+Cộng 1 vào mã bù 1
+45. Thiết bị không phải là thiết bị giao diện là:
+TIMER 8254
+46. Trong máy tính, ngắt NMI là:
+Ngắt cứng không chắn (che) được
+47. Mode địa chỉ trực tiếp là mode mà toán hạng nguồn là:
+Một ô nhớ có địa chỉ được chỉ ra trong lệnh
+48. Đối với lệnh mã máy, phát biểu SAI là:
+Toán hạng cho biết thao tác cần thực hiện
+49. Nhóm thanh ghi có chức năng chứa địa chỉ đoạn là:
+CS, DS, ES, SS
+50. Thanh ghi dùng để chứa số lần lặp là:
+Cx
+51. Chức năng của khối EU trong kiến trúc vi xử lý 16bits là:
+Thực hiện các lệnh đã được giải mã
+52. Trong kiến trúc chip xử lý CPU 80286. Bus địa chỉ có độ rộng:
+24 bits
+
+53. Bộ mô tả TSS thuộc không gian nhớ của:
+Bảng GDT (b)
+54. Phát biểu đúng là:
+Các bộ mô tả đoạn gồm: Địa chỉ nền, giới hạn đoạn, quyền truy nhập
+55. Nhóm thanh ghi đa năng là:
+AX, BX, CX, DX
+56. Tín hiệu yêu cầu ngắt cứng INT có thể bị che bởi bit cờ nào trong thanh ghi cờ FLAGS?
+IF
+57. Thanh ghi chứa địa chỉ cổng vào ra nếu địa chỉ cổng lớn hơn FFh là:
+Dx
+58. Phát biểu nào đúng:
+Bus dữ liệu, điều khiển là bus 2 chiều, địa chỉ là bus 1 chiều
+59. Lệnh sau khi giải mã được chuyển tới khối nào trong CPU80286:
+EU
+60. Phát biểu nào sau đây đúng:
+Thành phần trong CMOS cung cấp thông tin thời gian thực
+61. Các thanh ghi tham gia vào phương pháp định vị chỉ số là:
+SI,DI
+62. Tín hiệu yêu cầu ngắt INT có thể bị che bằng bit cờ IF là:
+INT
+63. Với CPU 80286, các thanh ghi trong EU dài:
+16 bít
+64. Thiết bị giao diện thực hiện chức năng nhận và phát dữ liệu song song là:
+PPI
+65. Thanh ghi con trỏ lệnh IP dùng để
+Lưu trữ địa chỉ của lệnh kế tiếp sẽ được thực hiện trong đoạn chương trình hiện tại
+66. Thanh ghi con trỏ ngăn xếp SP dùng để…
+Chứa địa chỉ đỉnh ngăn xếp
+67. Địa chỉ offset có giá trị bằng bao nhiêu nếu: Mov AX,[BX+ SI+100h],  trong đó [BX]=1000h, [SI] =10h
+Địa chỉ offset = 1110h
+68. Thanh ghi con trỏ cơ sở BP được sử dụng để
+Chứa địa chỉ offset của ô nhớ trong đoạn ngăn xếp
+69. Các thanh ghi CS, DS, SS, ES  nằm trong khối đơn vị nào của CPU 80286
+AU
+70. Thực hiện lệnh đã giải mã và tạo các tín hiệu điều khiển hoạt động của các đơn vị chức năng khác là chức năng của đơn vị ..
+EU
+71. Thanh ghi dùng để chứa con số xác định một chức năng cụ thể cần thực hiện của hàm khi thực hiện lệnh INT là:
+Ax
+72. Vùng địa chỉ 378-37 F được phân bổ cho:
+Thiết bị giao diện song song 1(Cổng máy in LTP1)
+73. Tín hiệu xung tạo nhịp thời gian cơ sở cho đơn vị xử lý trung tâm là:
+CLK
+74. Phương pháp định vị thường được dùng trong các thao tác với phần tử mảng dữ liệu hoặc với các cấu trúc dữ liệu tương đương là:
+Định vị cơ sở
+75. CPU 80286 làm việc ở ..
+2 chế độ
+76. Trong CPU 80286 thanh ghi nào được sử dụng để quản lý bảng bộ mô tả ngắt (bảng vectơ ngắt) 
+Thanh ghi IDT
+77. Thanh ghi dùng để chứa 2 byte cao kết quả của phép nhân hoặc phần dư của phép chia 16 bit là:
+DX
+78. Thanh ghi dùng để chứa địa chỉ offset của ô nhớ trong đoạn ngăn xếp là:
+SP
+79. Lệnh nào sau đây là không hợp lệ?
+Mov AX, IP
+80. Lệnh nào sau đây là không hợp lệ?
+Mov BL,1000h
+
+
+
+
+============ Chuong 2 =============
+1. Trong máy tính số, bộ nhớ DRAM được coi là
+bộ nhớ bán dẫn động
+2. Trong máy tính số, bộ nhớ SRAM được coi là
+bộ nhớ bán dẫn tĩnh
+3. Trong tổ chức bộ nhớ phân cấp thì tốc độ truy xuất hệ thống bộ nhớ tăng theo trình tự
+bộ nhớ chính – cache – thanh ghi
+4. Cấu trúc một khối Cache gồm các phần
+Số hiệu thẻ  - bit cờ F – khối dữ liệu
+5. Trong chế độ bảo vệ theo cơ chế phân trang, cấu trúc của hệ thống quản lý trang gồm các phần:
+Thư mục trang, bảng trang và trang
+6. Địa chỉ vật lý của ô nhớ cần truy nhập trong chế độ bảo vệ theo cơ chế phân trang với CPU 32 bit được xác định
+bằng cách kết hợp 20 bit cao của địa chỉ nền trang và các bits A11-A0 của địa chỉ tuyến tính
+7. Khi truy nhập khối Cache với Cache có 4 khối và bus địa chỉ 24 bit thì bộ điều khiển bộ nhớ sẽ tách
+các bit địa chỉ A1A0 đưa vào thanh ghi địa chỉ bộ nhớ MAR
+8. Mục đích tổ chức bộ nhớ phân cấp là
+tăng tốc độ (trung bình) truy xuất  hệ thống bộ nhớ  và tăng dung lượng nhớ
+9. Cơ sở để tổ chức bộ nhớ phân cấp là
+trong thời khoảng xác định CPU chỉ truy xuất dữ liệu nằm trong một vùng nhớ có kích thước nhỏ
+10. Khẳng định nào sau đây là đúng
+Tốc độ truy nhập dữ liệu vào DRAM nhanh hơn so với truy nhập vào bộ nhớ thứ cấp
+11. Trong mô hình tổ chức bộ nhớ theo phân cấp thì
+Bộ nhớ thứ cấp chiếm dung lượng lớn nhất
+12. Trong mô hình tổ chức bộ nhớ theo phân cấp sự xuất hiện của bộ nhớ cache với mục đích chính là:
+Giảm thời gian trung bình truy nhập  bộ nhớ
+13. Bộ nhớ cache được sử dụng để
+Lưu trữ các lệnh và dữ liệu thường được sử dụng nhiều trong quá trình thực hiện chương trình
+14. Trong mô hình tổ chức bộ nhớ theo phân cấp DRAM là viết tắt của:
+Dynamic Random Access Memory
+15. Trong mô hình tổ chức bộ nhớ theo phân cấp, tỷ lệ quy chiếu “trúng” cache là:
+Rất cao
+16. Quá trình làm tươi (refresh) dữ liệu là quá trình cần thiết đối với loại bộ nhớ bán dẫn:
+DRAM
+17. Xét  sơ đồ phân cấp hệ thống nhớ, phát biểu nào sau đây là đúng:
+Từ bộ nhớ ngoài tới thanh ghi tốc độ truy nhập nhanh dần
+18. Quá trình luân chuyển dữ liệu giữa các cấp trong hệ thống nhớ của máy tính là:
+Cả (a) và (b) đúng
+19. Truy nhập theo cơ chế phân trang địa chỉ tuyến tính dài 32bit thì:
+Chỉ số thư mục trang chiếm 10bits cao
+20. Một ô nhớ trong bộ nhớ chính có độ dài:
+8bits
+21. Với CPU 80386, kích thước của bảng thư mục trang là:
+4KB
+22. Với CPU 80386, kích thước của bảng trang là:
+4KB
+23. Với CPU 80286, Thông tin về địa chỉ của trang trong phần tử PTE chiếm số bít là:
+20 bít
+24. Với CPU 80386, địa chỉ nền của bảng trang là bao nhiêu bít?
+32 bít
+25. Với CPU 80386, địa chỉ nền của bảng trang là bao nhiêu bít?
+32 bit
+26. Với CPU 80386, địa chỉ nền của trang là bao nhiêu bít?
+32 bít
+27. Trong máy tính PC bộ nhớ cache
+được cấu tạo từ  bán dẫn
+28. Bit cờ F trong khối Cache
+dùng để xác định việc thực hiện ghi dữ liệu từ khối cache ra bộ nhớ chính trong kỹ thuật sao lưu
+29. Trong chế độ bảo vệ theo cơ chế quản lý bộ nhớ phân trang giả sử địa chỉ tuyến tính 32 bit có giá trị 567A9541h, và nội dung của PTE tương ứng là 56788123h thì địa chỉ vật lý của ô nhớ cần truy nhập  là
+56788541h
+30. Khi truy nhập bộ nhớ cache với cache có 8 khối và bus địa chỉ 24 bit thì bộ điều khiển bộ nhớ sẽ dùng
+3 bit để xác định vị trí khối cache
+31. Khi áp dụng kỹ thuật  ghi xuyên trong thao tác ghi bộ nhớ thì
+thời gian ghi bộ nhớ tăng
+32. Khi nói về bộ nhớ RAM và ROM thì phát biểu nào sau đúng:
+RAM chứa chương trình của hệ điều hành, ROM thì không.
+33. Trong mô hình tổ chức bộ nhớ theo phân cấp thì
+Dung lượng của bộ nhớ cache đảm bảo theo một tỷ lệ thích hợp với các thành phần nhớ khác theo mô hình phân cấp mà người thiết kế đưa ra
+34. Tỷ lệ quy chiếu “trúng” cache là cao hay thấp tuỳ thuộc vào
+Thuật toán nạp dữ liệu vào cache của hệ điều hành
+35. Khẳng định nào sau đây là đúng
+Việc tổ chức bộ nhớ theo phân cấp hiện đang được sử dụng phổ biến
+36. Trong cơ chế quản lý bộ nhớ theo phân trang để xác định được địa chỉ vật lý của ô nhớ cần dựa vào
+Địa chỉ tuyến tính, nội dung của CR3
+37. Số lượng thẻ trong cache là bao nhiêu khi bộ nhớ có 224 ô nhớ, cache có 22 vị trí chứa khối cache:
+2^22  thẻ
+38. Muốn biết dữ liệu trong khối cache có trùng với dữ liệu trong RAM hay không ta căn cứ vào:
+Giá trị bit cờ F trong khối cache (a)
+39. Nội dung khối dữ liệu trong khối cache dài:
+Giá trị khác
+
+
+
+
+=============== Chuong 3 ================
+1. Trong máy vi tính  PIC 8259 có chức năng
+nhận các yêu cầu ngắt từ các thiết bị, xác định ngắt ưu tiên, cung cấp số hiệu ngắt cho CPU và cho phép/cấm các yêu cầu ngắt kích hoạt hệ thống ngắt cứng
+2. Hệ thống ngắt cứng trong máy vi tính
+Kết hợp (1) và (2)
+3. Hệ thống DMA  trong máy vi tính
+sử dụng 2 DMAC8237 ghép tầng với chân HOLD của DMAC số 1 nối với DRQ0 của DMACsố 2
+4. Trong máy vi tính DMAC8237 
+nhận tín hiệu yêu cầu DRQi và điều khiển quá trình vào ra trực tiếp giữa bộ nhớ và thiết bị ngoại vi  sau khi nhận được tín hiệu HLDA
+5. DMAC8237 có thể hoạt động theo 1 trong
+4 kiểu truyền dữ liệu
+6. Phương pháp vào/ra dữ liệu có thăm dò
+phương pháp vào ra mà quá trình vào ra dữ liệu chỉ thực sự được thực hiện sau khi CPU đã thăm dò trạng thái sẵn sàng của thiết bị
+7. Phương vào ra dữ liệu theo ngắt cứng
+làm tăng hiệu quả làm việc của CPU
+8. Phương pháp vào ra dữ liệu kiểu truy nhập trực tiếp bộ nhớ
+là phương pháp thường được áp dụng khi vào ra dữ  liệu với đĩa từ
+9. Trong hệ thống máy tính chuẩn RS-232 áp dụng cho truyền tin qua
+thiết bị  giao diện vào ra nối tiếp
+10. Chuẩn RS-232 quy định
+phương pháp truyền dữ liệu là không đồng bộ về pha
+11. Trong cấu trúc phần cứng của các hệ thống vào/ra dữ liệu
+Thiết bị ngoại vi kết nối với hệ thống bus thông qua thiết bị giao diện
+12. Thanh ghi trạng thái của thiết bị giao diện:
+Chứa các bit thông tin phản ánh trạng thái làm việc của thiết bị giao diện và thiết bị ngoại vi
+13. Trong việc vào/ra dữ liệu khi CPU muốn đưa dữ liệu ra thiết bị vào/ra thực chất là:
+CPU đưa dữ liệu ra thanh ghi dữ liệu
+14. Trong việc vào/ra dữ liệu khi thiết bị ngoại vi gửi một dữ liệu cho máy tính dữ liệu này được đưa vào:
+Thanh ghi dữ liệu(2)
+15. Để CPU có thể thực hiện trao đổi thông tin với các thiết bị vào\ra với độ tin cậy cao thì
+ngoài kết nối vật lý thích hợp cần phải áp dụng các phương pháp vào/ra dữ liệu thích hợp
+16. phương pháp vào/ra dữ liệu theo định trình
+thuộc nhóm phương pháp vào/ra do CPU chủ động
+17. Hai phương pháp nào sau đây thuộc cùng một nhóm các phương pháp vào/ra dữ liệu:
+Vào/ra theo ngắt cứng và vào/ra theo kiểu DMA
+18. Phương pháp vào ra theo thăm dò có ưu điểm là
+có độ tin cậy cao
+19. Phương pháp vào/ra theo ngắt cứng có ưu điểm là
+độ tin cậy rất cao và việc sử dụng phương pháp này làm tăng hiệu quả làm việc của CPU(1)
+20. khi thực hiện vào/ra dữ liệu theo phương pháp có thăm dò với nhiều thiết bị thì có nhược điểm là:
+Kết hợp (1) và (2)
+21. Ngắt là:
+sự kiện CPU bị tạm dừng tiến trình đang thực hiện để chuyển sang thực hiện quá trình phục vụ ngắt
+22. Trong cấu trúc của hệ thống ngắt cứng PIC báo ngắt cho CPU thông qua:
+Tín hiệu INT
+23. Thiết bị vào/ra gửi tín hiệu yêu cầu ngắt cứng cho PIC bằng đường tín hiệu:
+IRQ
+24. ưu điểm nổi trội của phương pháp vào/ra dữ liệu theo kiểu DMA là
+Kết hợp cả hai phương án (1) và (2)
+25. Khi thực hiện vào/ra dữ liệu theo kiểu DMA thiết bị vào/ra liên lạc với DMAC qua tín hiệu:
+DRQ và DACK
+26. Khi thực hiện vào/ra dữ liệu theo kiểu DMA thiết bị DMAC bắt tay với CPU thông qua tín hiệu:
+HOLD và HLDA
+27. Khi thực hiện vào/ra dữ liệu theo kiểu DMA thì
+dữ liệu được chuyển trực tiếp giữa thiết bị vào/ra và bộ nhớ dưới sự điều khiển của DMAC
+28. Chương trình con phục vụ ngắt có đặc điểm
+Kết hợp cả 2 phương án (1) và (2)
+29. Trong chế độ thực mỗi vector ngắt trong bảng vector ngắt chứa
+địa chỉ logic của 1 chương trình con phục vụ ngắt
+30. Hệ thống ngắt cứng trong PC/AT được xây dựng trên
+2 PIC 8259 mắc nối tầng với nhau theo kiểu chủ-thợ
+31. Trong hệ thống ngắt cứng ở chế độ ưu tiên cố định thì:
+IRQ0 có mức ưu tiên cao nhất
+32. Chức năng nào sau đây không thuộc về PIC 8259 trong hệ thống ngắt cứng của PC/AT
+Cung cấp cho CPU chương trình con phục vụ ngắt tương ứng với yêu cầu ngắt IRQi
+33. Tín hiệu INTA xuất phát từ CPU được truyền tới cho:
+PIC 8259
+34. Tín hiệu điều khiển INT là tín hiệu:
+Từ bên ngoài gửi đến CPU xin ngắt
+35. Vào/ra dữ liệu kiểu truy nhập trực tiếp bộ nhớ được hỗ trợ bởi:
+DMAC
+36. Phát biểu nào sau đây là đúng:
+HOLD là tín hiệu từ bên ngoài xin CPU nhường bus
+37. Tín hiệu điều khiển HLDA là tín hiệu:
+CPU trả lời đồng ý nhường bus
+38. Trong thiết bị giao diện có 3 loại thanh ghi đó là:
+Điều khiển, trạng thái, dữ liệu
+39. Phương pháp vào/ra nào luôn kiểm tra trạng thái sẵn sàng làm việc của thiết bị vào/ra:
+Vào/ra có thăm dò
+40. Khi muốn vào/ra theo ngắt cứng thì thiết bị vào/ra phát tín hiệu:
+IRQ
+41. Phương pháp vào ra nào được dùng để thực hiện vào/ra dữ liệu với thiết bị vào/ra  nối tiếp
+Vào /ra theo ngắt cứng
+42. Phương pháp vào/ra theo định trình là phương pháp vào/ra do:
+Do CPU chủ động
+43. Vào/ra theo ngắt cứng, khi CPU nhận được tín hiệu INT CPU sẽ thực hiên nốt lệnh của chương trình hiện hành sau đó lưu địa chỉ trở về vào ..
+Ngăn xếp
+44. Vào/ra theo định trình được thực hiện nhờ lệnh nào?
+IN hoặc OUT
+45. Thiết bị giao diện có mấy loại thanh ghi?
+3 loại thanh ghi
+46. Thiết bị đo nhiệt độ số, sử dụng phương pháp vào/ra dữ liệu nào?
+Vào/ra có thăm dò
+47. Vào/ra theo kiểu DMA là phương pháp: 
+Vào/ra dữ liệu trực tiếp giữa CPU và thiết bị ngoại vi không thông qua CPU
+48.  Khái niệm địa chỉ cổng vào, địa chỉ cổng ra hay địa chỉ cổng vào/ra để nói tới:
+Địa chỉ của thanh ghi trong thiết bị giao diện
+49. Ngắt cứng là phương pháp vào ra dữ liệu được kích hoạt do:
+Tín hiệu IRQ từ thiết bị vào/ra
+
+
+50. Có mấy nguyên nhân gây ra ngắt trong hệ thống máy tính
+3
+51. Vào/ra theo thăm dò được thực hiện nhờ lệnh
+IN hoặc OUT
+52. Khi kết nối máy in với máy tính qua cổng LPT ta thấy máy in báo lỗi. Vậy thông báo đó là do các bit trong thanh ghi nào phản ánh?
+Thanh ghi trạng thái
+53. Xác định trình tự các tín hiệu xuất hiện khi xảy ra yêu cầu vào/ra dữ liệu theo kiểu DMA từ thiết bị vào/ra:
+DRQ->HOLD->HLDA->DACK
+54. Thiết bị giao diện  trong hệ thống máy tính
+các thanh ghi đều được gán địa chỉ xác định
+55. Để hệ thống máy tính không thực hiện yêu cầu ngắt IRQi từ thiết bị vào/ra thì
+đặt bít thứ i của thanh ghi mặt nạ ngắt IMRi=1 và xóa bit cờ ngắt IF của thanh ghi cờ trong CPU=0
+56. Trong hệ thống ngắt cứng biết yêu cầu ngắt của thiết bị UART 8250/16450 tương ứng với tín hiệu IRQ4 của PIC 8259 “chủ”, để cấm IRQ4 kích hoạt hệ thống ngắt cứng thì
+bit D4 của thanh ghi mặt nạ ngắt được đặt bằng 1
+57. Thiết bị giao diện nối tiếp UART8250/16450 có chức năng
+chuyển 1 byte dữ liệu (nhận từ CPU) dạng song song thành dạng nối tiếp…
+58. Trên sơ đồ ghép tầng 2 PIC 8259 để nhận biết PIC chủ có thể căn cứ vào các chân tín hiệu:
+Kết hợp  (2) và (3)
+59. Tổng số chân tín hiệu địa chỉ và dữ liệu của DMAC8237 là
+16 chân tín hiệu
+60. Biết DLAB là bit D7 của thanh ghi LCR vậy để thiết lập tốc độ truyền cho thiết bị UART8250/16450 thì nội dung của thanh ghi LCR có thể là
+80h
+61. Biết kích thước dữ liệu truyền trong khuôn dạng dữ liệu truyền theo chuẩn RS-232 có thể là 5 bit, 6 bit, 7 bit, 8 bit vậy trong thanh ghi điều khiển đường truyền của thiết bị UART8250/16450 cần
+2 bit để xác định kích thước dữ  liệu truyền
+62. Trong quá trình vào/ra dữ liệu theo ngắt cứng
+Thiết bị vào/ra chủ động khởi động quá trình vào/ra
+63. PIC truyền số ngắt(con số đại diện cho địa chỉ chương trình con phục vụ ngắt) cho CPU bằng:
+Bus dữ liệu
+64. Trên sơ đồ ghép tầng 2 PIC 8259 để nhận biết PIC thợ có thể căn cứ vào các chân tín hiệu:
+Kết hợp  (1) hoặc (2) hoặc (3)
+65. Giả sử nội dung của thanh ghi LCR(line control register) trong UART  là : D7 D6 D5 D4 D3 D2 D1 D0 = x x x x x x 1 1 thì trong khung truyền dữ liệu có
+7 bits dữ liệu
+66. Có thể phân loại phương pháp điều khiển vào/ra như sau:
+Vào/ra bằng chương trình, bằng ngắt, bằng DMA
+67. Vào/ra dữ liệu theo truy nhập trực tiếp bộ nhớ:
+DMAC làm chủ hệ thống bus
+68. Vào/ra dữ liệu theo ngắt cứng:
+CPU làm chủ hệ thống bus
+69. Với phương pháp vào/ra bằng DMA, phát biểu nào sau đây là SAI:
+CPU và DMAC kết hợp điều khiển trao đổi dữ liệu
+70. Quá trình hiển thị thông tin trên biển quảng cáo LED diễn ra theo phương pháp vào/ra nào sẽ hợp lý nhất:
+Định trình
+71. Khi xảy ra yêu cầu ngắt cứng thì CPU:
+Thực hiện nốt lệnh đang thực hiện dở rồi thực hiện chương trình con phục vụ ngắt.
+72. CPU nhận số hiệu ngắt của chương trình con phục vụ ngắt từ:
+PIC đưa tới cho CPU
+73. Hệ thống chuông báo giờ học ở giảng đường sử dụng phương pháp vào/ra dữ liệu:
+Định trình
+
+
+
+
+
+
+=========== Chuong 4 ==========
+1. Mạch điện tử quét phím trong kiến trúc bàn phím theo phương pháp tạo mã quét có
+mạch giải mã
+2. Mã quét bàn phím máy tính (có ma trận phím là 8x13) là
+16 bit
+3. Hệ thống bàn phím máy tính gồm
+bàn phím và thiết bị giao diện bàn phím
+4. Phương pháp truyền dữ liệu giữa bàn phím và máy tính là
+nối tiếp đồng bộ
+5. Ổ đĩa cứng và ổ đĩa mềm thực hiện việc ghi đọc thông tin dựa trên cơ sở của hiện tượng vật lý
+Cảm ứng điện từ
+6. Nói về chip khả trình PIC thì:
+Mỗi PIC đón nhận được 8 yêu cầu ngắt IRQ
+7. Khi nói tới bàn phím, phát biểu nào đúng:
+Cả (a) và (b) đúng
+8. Chuẩn RS232C chỉ ra:
+Kích thước cáp không quá 20m (a)
+9. Với màn hình, hiển thị ở chế độ văn bản. Phát biểu nào đúng:
+Cả (a) và (c) đều đúng
+10. Thiết bị ngoại vi ghép nối với máy tính thông qua cổng COM thì phương pháp trao đổi dữ liệu được áp dụng là:
+Ngắt cứng
+11. Thiết bị ngoại vi ghép nối với máy tính thông qua cổng LPT thì phương pháp trao đổi dữ liệu được áp dụng là:
+Ngắt cứng
+12. Trong kiểu ghép tầng PIC thợ là:
+PIC có chân INT nối với IRQ của PIC chủ
+13. Thanh ghi lệnh trong DMAC có giá trị A1h 
+Cho phép DMAC làm việc
+14. Nếu thanh ghi yêu cầu trong DMAC có giá trị 22h thì:
+Chọn kênh 2
+15. Quá trình truyền mã phím từ bàn phím tới thiết bị giao diện KC 8042 theo kiểu gì?
+Nối tiếp đồng bộ
+16. Giả sử LCR=AFh thì độ dài dữ liệu truyền bằng bao nhiêu?
+8bit
+17. Chuẩn RS232 là chuẩn qui định cho việc truyền dữ liệu theo kiểu:
+Truyền theo kiểu nối tiếp không đồng bộ
+18. Tín hiệu nào kích hoạt cho ngắt mềm hoạt động
+INT
+19. Bảng vecto ngắt nằm ở đâu?
+Trong bộ nhớ chính
+20. Từ điều khiển khởi động ICW định nghĩa số ngắt nền cho 7 số ngắt còn lại là:
+ICW2
+21. Trong chu kỳ hoạt động DMAC 8237 có mấy kiểu truyền?
+4
+22. Các thanh ghi chức năng trong DMAC có độ rộng..
+16 bit
+23. Chip bổ trợ PIC-8259A đón nhận được..
+8 IRQ
+24. Đối với chip PIC-8259A, có bao nhiêu chế độ ưu tiên ngắt?
+3
+25. PIC 8259A, có bao nhiêu từ điều khiển hoạt động?
+3
+26. Số thứ tự của các ô trong bảng vecto ngắt  được coi là:
+Số ngắt
+27. Nội dung của các ô trong bảng vecto ngắt chứa địa chỉ…
+Địa chỉ logic của chương trình con phục vụ ngắt
+28. Theo quy định thì số ngắt tương ứng với hệ thống bàn phím là:
+09h
+29. Hệ thống ngắt cứng có thể kết thúc phục vụ ngắt theo mấy chế độ?
+2 chế độ
+30. Nguyên nhân gây ra ngắt mềm  là:
+Do câu lệnh INT
+31. Nội dung của bảng vecto ngắt chứa: 
+Chứa địa chỉ của chương trình con phục vụ ngắt
+32. Với thiết bị điều khiển DMAC, muốn biết khối lượng dữ liệu đã được truyền thì dựa vào thanh ghi nào:
+Thanh ghi đếm từ hiện thời
+33. Căn cứ vào tín hiệu nào để biết DMAC đã truyền song khối dữ liệu cần truyền:
+Tín hiệu EOP được phát ra từ DMAC
+34. Bộ đệm vào/ra dữ liệu có khi đóng vai trò là bộ đệm địa chỉ tương ứng với các dây địa chỉ từ:
+A8-A15
+35. Tín hiệu yêu cầu DRQ thuộc kênh nào có độ ưu tiên lớn nhất trong DMAC:
+Kênh 0
+36. Cấu tạo của bàn phím gồm 2 thành phần chính là:
+Ma trận phím nhấn và mạch điện tử quét
+37. Xác định hướng truyền từ vi điều khiển 8040 trên bàn phím và KC8042
+Nếu Clock=1và Data=1 thì 8048 truyền dữ liệu cho KC8042
+38. Bộ đệm bàn phím với dòng máy tính PC/AT 
+32bytes
+39. Mã quét của 4 phím ở 4 góc của  bàn phím 16 phím  là
+000111,001110,1101112,111110
+40. Truyền tin giữa bàn phím và thiết bị giao diện bàn phím là kiểu truyền
+Nối tiếp đồng bộ
+41. Khi thực hiện việc đọc thông tin từ đĩa từ vào máy tính thì xảy ra hiện tượng vật lý sau:
+biến đổi từ thành điện(1)
+42. Mỗi ô trong bảng vectơ ngắt có kích thước:
+4bytes
+43. Nếu theo kiểu ghép nối chủ/thợ thì hệ thống ngắt cứng gồm tối đa:
+9PICs
+44. PIC 8259 hoạt động ở chế độ ưu tiên cố định thì:
+IRQ0 có thể ngắt chương trình của tất cả các IRQ còn lại.
+45. Số hiệu ngắt của chương trình con phục vụ ngắt của bàn phím 09h được phát ra từ:
+PIC 8259 đưa tới cho CPU
+46. Khi nhấn phím và CPU phục vụ bàn phím. Vậy đã xảy ra hiện tượng ngắt. Ngắt đó được gọi là:
+Ngắt cứng
+47. Để hệ thống máy tính KHÔNG thực hiện yêu cầu ngắt IRQi từ thiết bị vào ra thì:
+Thiết lập bit thứ i của thanh ghi IMRi=1
+48. Khi dữ liệu truyền từ UART8250  tới CPU thì:
+Kết hợp ý (1) và (2)
+49. Khi dữ liệu truyền từ UART8250  tới thiết bị ngoại vi thì
+Dữ liệu cần được thêm vào các bit tạo khung (START, PARITY, STOP) trước khi được truyền.
+50. Chuẩn giao tiếp UART 8250 là kiểu truyền dữ liệu:
+Nối tiếp, 2 chiều đồng thời trên 2 đường dây khác nhau
+51. Khi lập trình vào/ra dữ liệu theo chuẩn RS232 thì cần lưu ý rằng:
+Tốc độ và khuôn dạng dữ liệu giữa 2 bên phải giống nhau
+52. Nếu yêu cầu ngắt IRQ3 đang được phục vụ, vậy giá trị của thanh ghi ISR là:
+08h
+53. Nếu giả sử hệ thống ngắt cứng gồm 3 PIC được ghép nối với nhau. Thì hệ thống có thể phục vụ tối đa bao nhiêu thiết bị:
+21
+54. Nếu giá trị thanh ghi ISR trong PIC 8259 có giá trị 00h thì yêu cầu ngắt nào đang được phục vụ:
+Không có yêu cầu nào
+55. Chức năng nào sau đây KHÔNG thuộc về PIC 8259 trong hệ thống ngắt cứng của dòng máy tính PC/AT:
+Cung cấp cho CPU chương trình con phục vụ ngắt tương ứng với yêu cầu ngắt IRQi.
+56. Nếu muốn yêu cầu IRQi trong PIC không được đáp ứng thì ta cần tác động vào khối nào?
+IMR
+57. Nếu cho giá trị thanh ghi ICW2 trong PIC 8259 có giá trị là A8h thì yêu cầu ngắt IRQ3 tương ứng với số ngắt: 
+ABh
+58. Nếu giá trị thanh ghi OCW1 trong PIC 8259 có giá trị 08h thì yêu cầu ngắt bị cấm là:
+IRQ3
+59. Xét về nguyên lý hiển thị thông tin ở chế độ văn bản của màn hình CRT. Giả sử cần hiển thị 2 ký tự A (ở tọa độ hàng 0 cột 0) và ký tự B (ở tọa độ hàng 1 cột 0). Vậy thứ tự xảy ra các bước sẽ là:
+CRTC đưa địa chỉ (hàng 0, cột 0) tới bộ nhớ hiển thị và địa chỉ dòng ảnh 0 tới Rom tạo ký tự -> CRTC đưa địa chỉ (hàng 0, cột 0) tới bộ nhớ hiển thị.
+60. Phát biểu nào đúng khi nói về vai trò của thanh ghi ISR trong PIC:
+Ghi nhận lại yêu cầu IRQ đang được phục vụ
+61. Cho giá trị thanh ghi ICW3 trong PIC chủ có giá trị 12h. Điều này nói lên rằng PIC chủ được kết nối với bao nhiêu PIC thợ:
+2PIC
+62. Cho giá trị của thanh ghi mặt nạ trong DMAC có giá trị 52h. Hãy cho biết kênh nào của DMAC sẽ không được đáp ứng:
+Kênh 1
+63. DMAC ở chu kỳ hoạt động và kênh 2 được chọn, hãy xác định giá trị của thanh ghi yêu cầu trong DMAC:
+xxxxxx10
+64. Mã quét của 4 phím trên cùng 1 cột của bàn phím 16 phím có thể là
+101110,101101,101011,101110
+65. Mã quét của 4 phím trên cùng 1 hàng của bàn phím 16 phím là
+001011,101011,111011,011011
+66. Các dây hàng của ma trận phím 16 phím lần lượt có giá trị
+1110,1101,1011, 0111
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
