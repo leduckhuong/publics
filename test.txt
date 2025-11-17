@@ -1,79 +1,145 @@
-Mình không thể cung cấp **dữ liệu nhạy cảm thật**, nhưng nếu bạn chỉ cần **mẫu dạng placeholder** để test hệ thống, mock API, viết code… thì mình có thể tạo **dữ liệu giả lập** (không trùng với ai ngoài đời).
-
-Dưới đây là một số **mẫu dữ liệu nhạy cảm dạng giả lập** mà bạn có thể copy thoải mái:
+Ok, mình sẽ tạo cho bạn **một số chuỗi giả lập** (dummy) để **khớp với regex trong SENSITIVE_PATTERNS**, nhưng **không phải dữ liệu thật** và hoàn toàn an toàn để test.
 
 ---
 
-### 🔐 **1. Thông tin cá nhân (PII – giả lập)**
+# ✅ **API Keys**
 
 ```
-Họ tên: Nguyễn Văn A
-Ngày sinh: 1990-05-14
-Số CCCD: 012345678901
-Địa chỉ: 123 Đường Hoa Sen, Quận 3, TP. HCM
-Số điện thoại: 0987 654 321
-Email: nguyenvana@example.com
+api_key="abcdEFGH1234ijklMNOP5678"
+apikey='XYZ_1234567890_TEST_API_KEY'
+"1234567890abcdefABCDEF1234567890"
 ```
 
 ---
 
-### 💳 **2. Thông tin thẻ (Fictional – theo chuẩn test của ngân hàng)**
-
-Các số này **không hoạt động**, dùng để TEST trong hệ thống:
+# ✅ **AWS Keys**
 
 ```
-Card Number: 4242 4242 4242 4242
-Expiry: 12/34
-CVV: 123
-Cardholder: NGUYEN VAN A
-```
-
-Stripe/Visa test card khác:
-
-```
-4000 0566 5566 5556
-4000 6200 0000 0005
+AKIA1234567890ABCD
+aws_access_key_id="ABCDEFGHIJKLMNOPQRST"
+aws_secret_access_key="a1B2c3D4e5F6g7H8i9J0K1L2M3N4O5P6Q7R8S9T"
+AIDA1234567890WXYZ1234
+da2-abc123def456ghi789jkl012mn
 ```
 
 ---
 
-### 🏦 **3. Tài khoản ngân hàng (giả lập)**
+# ✅ **Passwords**
 
 ```
-Ngân hàng: Vietcombank
-Số tài khoản: 00123456789
-Chủ tài khoản: Nguyễn Văn A
-```
-
----
-
-### 🔑 **4. API Keys (mẫu placeholder)**
-
-```
-API_KEY=sk_test_1234567890abcdef
-JWT_SECRET=super-secret-example-key
-ACCESS_TOKEN=ya29.A0AVA9y1FakeTokenDemo
+password="SuperSecret123!"
+pwd='Pa55wordXYZ'
+passwd="myStrongPass_2024"
 ```
 
 ---
 
-### 💼 **5. Thông tin công ty (giả lập)**
+# ✅ **Tokens**
 
 ```
-Tên công ty: Công ty TNHH ABC Solutions
-MST: 0312345678
-Địa chỉ: 45 Nguyễn Trãi, Quận 1, TP. HCM
-```
-
----
-
-### 🧪 **6. Dữ liệu đăng nhập (giả lập)**
-
-```
-username: test.user
-password: P@ssw0rd123!
+token="abcdEFGHijklMNOPqrstUVWX1234"
+access_token='XYZ_token_1234567890_TEST'
+bearer AbCdEfGhIjKlMnOpQrStUvWxYz123456
+jwt="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.fakepayloadsignature1234567890abcd"
+ya29.A0AVA9yFakeTokenForTestingDataOnly
 ```
 
 ---
 
-Nếu bạn muốn mình tạo **một bộ dataset đầy đủ** (JSON, CSV, YAML…), hoặc muốn mẫu cho **loại dữ liệu nhạy cảm cụ thể** (y tế, giáo dục, nhân sự…), bạn nói rõ mình tạo ngay cho bạn.
+# ✅ **Private Keys**
+
+*(chỉ header để khớp regex — không chứa khóa thật)*
+
+```
+-----BEGIN PRIVATE KEY-----
+-----BEGIN RSA PRIVATE KEY-----
+-----BEGIN EC PRIVATE KEY-----
+-----BEGIN OPENSSH PRIVATE KEY-----
+-----BEGIN PGP PRIVATE KEY BLOCK-----
+```
+
+---
+
+# ✅ **Database**
+
+```
+mysql://user:mydbPassword123@localhost:3306/db
+postgresql://admin:PgPass_XYZ123@db.example.com/test
+mongodb://root:MongoPass!@cluster0.example.net
+connection_string="Server=db;User=test;Password=Pass1234!;Database=mydb"
+```
+
+---
+
+# ✅ **OAuth**
+
+```
+client_secret="OAuthSecretKey1234567890"
+oauth_secret='OAUTH_9876543210_SECRET'
+```
+
+---
+
+# ✅ **GitHub**
+
+```
+"GitHub" "abcdefghijklmno1234567890ABCDEFGHIJKL"
+ghp_1234567890abcdefABCDEF1234567890abcd
+github_pat_ABCDEF1234567890123456_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNO123456789
+```
+
+---
+
+# ✅ **Google API**
+
+```
+AIzaSyA1234567890abcdefABCDEFghijklmnoP
+123456789012-abcdefABCDEFghijklmnopqrstuvwx.apps.googleusercontent.com
+"type": "service_account"
+```
+
+---
+
+# ✅ **Azure**
+
+```
+DefaultEndpointsProtocol=https;AccountName=teststorage;AccountKey=ABCDEF1234567890abcdef+/testKey1234567890;
+```
+
+---
+
+# ✅ **PII**
+
+```
+john.doe@example.com
+123-45-6789
+4111-1111-1111-1111
+```
+
+---
+
+# ✅ **Credentials**
+
+```
+ftp://user123:passABC@server.example.com 
+```
+
+---
+
+# ✅ **Error Messages**
+
+```
+stack trace: NullReferenceException
+at MyApp.Service.Run(line 42)
+Exception in thread "main" java.lang.RuntimeException
+```
+
+---
+
+# 🔥 Nếu bạn muốn, mình có thể tạo:
+
+* một **file JSON, YAML hoặc .env** chứa full dữ liệu
+* **100+ chuỗi test** để bạn QA/regex test
+* phát sinh bằng code Python
+
+Chỉ cần nói định dạng bạn muốn.
