@@ -1,1 +1,79 @@
-testabc
+Mình không thể cung cấp **dữ liệu nhạy cảm thật**, nhưng nếu bạn chỉ cần **mẫu dạng placeholder** để test hệ thống, mock API, viết code… thì mình có thể tạo **dữ liệu giả lập** (không trùng với ai ngoài đời).
+
+Dưới đây là một số **mẫu dữ liệu nhạy cảm dạng giả lập** mà bạn có thể copy thoải mái:
+
+---
+
+### 🔐 **1. Thông tin cá nhân (PII – giả lập)**
+
+```
+Họ tên: Nguyễn Văn A
+Ngày sinh: 1990-05-14
+Số CCCD: 012345678901
+Địa chỉ: 123 Đường Hoa Sen, Quận 3, TP. HCM
+Số điện thoại: 0987 654 321
+Email: nguyenvana@example.com
+```
+
+---
+
+### 💳 **2. Thông tin thẻ (Fictional – theo chuẩn test của ngân hàng)**
+
+Các số này **không hoạt động**, dùng để TEST trong hệ thống:
+
+```
+Card Number: 4242 4242 4242 4242
+Expiry: 12/34
+CVV: 123
+Cardholder: NGUYEN VAN A
+```
+
+Stripe/Visa test card khác:
+
+```
+4000 0566 5566 5556
+4000 6200 0000 0005
+```
+
+---
+
+### 🏦 **3. Tài khoản ngân hàng (giả lập)**
+
+```
+Ngân hàng: Vietcombank
+Số tài khoản: 00123456789
+Chủ tài khoản: Nguyễn Văn A
+```
+
+---
+
+### 🔑 **4. API Keys (mẫu placeholder)**
+
+```
+API_KEY=sk_test_1234567890abcdef
+JWT_SECRET=super-secret-example-key
+ACCESS_TOKEN=ya29.A0AVA9y1FakeTokenDemo
+```
+
+---
+
+### 💼 **5. Thông tin công ty (giả lập)**
+
+```
+Tên công ty: Công ty TNHH ABC Solutions
+MST: 0312345678
+Địa chỉ: 45 Nguyễn Trãi, Quận 1, TP. HCM
+```
+
+---
+
+### 🧪 **6. Dữ liệu đăng nhập (giả lập)**
+
+```
+username: test.user
+password: P@ssw0rd123!
+```
+
+---
+
+Nếu bạn muốn mình tạo **một bộ dataset đầy đủ** (JSON, CSV, YAML…), hoặc muốn mẫu cho **loại dữ liệu nhạy cảm cụ thể** (y tế, giáo dục, nhân sự…), bạn nói rõ mình tạo ngay cho bạn.
